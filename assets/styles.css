@@ -5,10 +5,16 @@ body {
   background-color: black;
   color: antiquewhite;
 }
-
+.animation1 {
+  animation: fadeIn ease 12s;
+  -webkit-animation: fadeIn ease 12s;
+  -moz-animation: fadeIn ease 12s;
+  -o-animation: fadeIn ease 12s;
+  -ms-animation: fadeIn ease 12s;
+}
 .box {
   background-image: url('');
-  background-color: crimson;
+  background-color: black;
 
   height: 100%;
 }
