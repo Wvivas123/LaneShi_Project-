@@ -7,8 +7,15 @@ body {
 }
 
 .box {
-  background-image: url('intro_web.gif');
+  background-image: url('');
+  background-color: crimson;
+
   height: 100%;
+}
+.flower {
+  width: 50%;
+  margin-left: 40%;
+  margin-top: 20%;
 }
 button {
   background-color: #4caf50; /* Green */
@@ -80,5 +87,48 @@ video {
   100% {
     left: 200px;
     top: 200px;
+  }
+}
+
+.flower {
+  animation: fadeIn ease 12s;
+  -webkit-animation: fadeIn ease 12s;
+  -moz-animation: fadeIn ease 12s;
+  -o-animation: fadeIn ease 12s;
+  -ms-animation: fadeIn ease 12s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
