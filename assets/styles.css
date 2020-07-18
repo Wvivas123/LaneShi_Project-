@@ -13,11 +13,23 @@ body {
   height: 100%;
 }
 .box {
+  position: fixed;
   width: 90%;
   height: 90%;
   background-image: url('Intro-Page2.gif');
 
   background-size: 100% 100%;
+}
+.flower {
+  margin-top: 15%;
+
+  margin-left: 25%;
+  height: 40%;
+  width: 40%;
+}
+.flowertwo {
+  width: 100%;
+  margin-top: 20%;
 }
 
 .animation1 {
@@ -73,16 +85,6 @@ body {
   }
 }
 
-.flowertwo {
-  width: 50%;
-  margin-left: 40%;
-  margin-top: 20%;
-}
-.flower {
-  width: 50%;
-  margin-left: 40%;
-  margin-top: 20%;
-}
 button {
   background-color: #4caf50; /* Green */
   border: none;
@@ -95,10 +97,6 @@ button {
   margin-bottom: 10px;
 }
 
-video {
-  width: 30%;
-  height: 30%;
-}
 .div1 {
   position: relative;
   animation: example 20s infinite;
@@ -167,6 +165,12 @@ video {
   0% {
     opacity: 0;
   }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
   100% {
     opacity: 1;
   }
@@ -174,6 +178,12 @@ video {
 
 @-moz-keyframes fadeIn {
   0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
     opacity: 0;
   }
   100% {
@@ -185,6 +195,12 @@ video {
   0% {
     opacity: 0;
   }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
   100% {
     opacity: 1;
   }
@@ -192,6 +208,12 @@ video {
 
 @-o-keyframes fadeIn {
   0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
     opacity: 0;
   }
   100% {
