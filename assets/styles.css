@@ -4,8 +4,13 @@ body {
   height: 100%;
   background-color: black;
   color: antiquewhite;
+  overflow: hidden;
 }
+
 .animation1 {
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
   animation: fadeIn ease 20s;
   -webkit-animation: fadeIn ease 20s;
   -moz-animation: fadeIn ease 20s;
@@ -59,6 +64,11 @@ body {
   background-color: black;
 
   height: 100%;
+}
+.flowertwo {
+  width: 50%;
+  margin-left: 40%;
+  margin-top: 20%;
 }
 .flower {
   width: 50%;
