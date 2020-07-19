@@ -99,7 +99,9 @@ button {
 video {
   width: 30%;
 }
-
+.rightvid {
+  float: right;
+}
 .fire {
   margin-left: 35%;
   margin-top: 10%;
