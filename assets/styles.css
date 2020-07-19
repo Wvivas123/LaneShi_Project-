@@ -36,11 +36,11 @@ body {
   height: 100%;
   width: 100%;
   background-color: whitesmoke;
-  animation: fadeIn ease 20s;
+  /* animation: fadeIn ease 20s;
   -webkit-animation: fadeIn ease 20s;
   -moz-animation: fadeIn ease 20s;
   -o-animation: fadeIn ease 20s;
-  -ms-animation: fadeIn ease 20s;
+  -ms-animation: fadeIn ease 20s;*/
 }
 .fadeout {
   animation: fadeOut ease 20s;
@@ -96,8 +96,20 @@ button {
   font-size: 16px;
   margin-bottom: 10px;
 }
+video {
+  width: 50%;
+}
 
-.div1 {
+.fire {
+  margin-left: 40%;
+  margin-top: 15%;
+}
+.topdiv {
+  margin-left: 40%;
+  margin-top: 15%;
+}
+
+​ .div1 {
   position: relative;
   animation: example 20s infinite;
 }
