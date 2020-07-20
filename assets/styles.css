@@ -234,24 +234,9 @@ video {
     opacity: 1;
   }
 }
-@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
   /* STYLES GO HERE */
-  .box1 {
-    background-image: url('mobilePage1_animation_transparant.gif');
-    width: 100%;
-    height: 100%;
-  }
-  .flower {
-    margin-left: 0%;
-    height: 50%;
-    width: 100%;
-  }
-  .flowertwo {
-    height: 500px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .box1 {
+  .box {
     background-image: url('mobilePage1_animation_transparant.gif');
     width: 100%;
     height: 100%;
