@@ -16,7 +16,7 @@ body {
   position: fixed;
   width: 90%;
   height: 90%;
-  background-image: url('Intro-Page2.gif');
+  /*background-image: url('Intro-Page2.gif');*/
 
   background-size: 100% 100%;
 }
