@@ -5,6 +5,7 @@ jQuery(document).ready(function ($) {
   let div3 = 5;
 
   $('html, body').animate({ scrollTop: $('.animation1').offset().top }, 1000);
+
   //$('.topdiv').click(function () {
   //  total++;
   // console.log(total);
@@ -14,7 +15,9 @@ jQuery(document).ready(function ($) {
   $('.fire').click(function () {
     $('.animation1').fadeOut('slow', function () {
       // Animation complete.
-      $('.front').prepend('<H1>Then the Audio tag will appear</H1>');
+      $('.front').append(
+        '<audio src="assets/song1.mp3" controls autoplay></audio>'
+      );
     });
   });
 });
