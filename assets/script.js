@@ -43,7 +43,7 @@ jQuery(document).ready(function ($) {
       // Animation complete.
       if (total === 0) {
         $('.front').append(
-          '<audio src="assets/track0.mp3" controls autoplay></audio>'
+          '<audio src="assets/song0.mp3" controls autoplay></audio>'
         );
       }
       if (total === 1) {
