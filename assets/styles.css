@@ -254,19 +254,19 @@ video {
     height: 500px;
   }
   .fire {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 0%;
   }
   .topdiv {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 0%;
   }
   .leftvid {
-    margin-left: 5%;
+    margin-left: 10%;
   }
   .rightvid {
     float: none;
-    margin-left: 5%;
+    margin-left: 10%;
   }
   video {
     width: 250px;
