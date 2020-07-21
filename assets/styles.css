@@ -268,4 +268,8 @@ video {
     float: none;
     margin-left: 3%;
   }
+  audio {
+    margin-top: 90%;
+    margin-left: 10%;
+  }
 }
