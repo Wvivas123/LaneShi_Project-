@@ -61,6 +61,21 @@ jQuery(document).ready(function ($) {
           '<audio src="assets/song5.mp3" controls autoplay></audio>'
         );
       }
+      if (total === 4) {
+        $('.front').append(
+          '<audio src="assets/song4.mp3" controls autoplay></audio>'
+        );
+      }
+      if (total === 8) {
+        $('.front').append(
+          '<audio src="assets/song8.mp3" controls autoplay></audio>'
+        );
+      }
+      if (total === 9) {
+        $('.front').append(
+          '<audio src="assets/song9.mp3" controls autoplay></audio>'
+        );
+      }
     });
   });
 });
