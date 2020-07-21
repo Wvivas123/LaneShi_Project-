@@ -45,9 +45,20 @@ jQuery(document).ready(function ($) {
         $('.front').append(
           '<audio src="assets/track0.mp3" controls autoplay></audio>'
         );
-      } else {
+      }
+      if (total === 1) {
         $('.front').append(
           '<audio src="assets/song1.mp3" controls autoplay></audio>'
+        );
+      }
+      if (total === 3) {
+        $('.front').append(
+          '<audio src="assets/song3.mp3" controls autoplay></audio>'
+        );
+      }
+      if (total === 5) {
+        $('.front').append(
+          '<audio src="assets/song5.mp3" controls autoplay></audio>'
         );
       }
     });
