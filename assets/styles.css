@@ -253,4 +253,19 @@ video {
   .flowertwo {
     height: 500px;
   }
+  .fire {
+    margin-left: 3%;
+    margin-top: 0%;
+  }
+  .topdiv {
+    margin-left: 3%;
+    margin-top: 0%;
+  }
+  .leftvid {
+    margin-left: 3%;
+  }
+  .rightvid {
+    float: none;
+    margin-left: 3%;
+  }
 }
