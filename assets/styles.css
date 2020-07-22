@@ -4,6 +4,7 @@ body {
   height: 100%;
   width: 100%;
   color: black;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -39,7 +40,7 @@ audio {
 .animation1 {
   height: 100%;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: black;
   /* animation: fadeIn ease 20s;
   -webkit-animation: fadeIn ease 20s;
   -moz-animation: fadeIn ease 20s;
