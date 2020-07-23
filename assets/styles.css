@@ -3,7 +3,7 @@ body {
   margin: 0px;
   height: 100%;
   width: 100%;
-  color: black;
+  color: white;
   background-color: black;
   overflow: hidden;
 }
@@ -23,24 +23,39 @@ body {
 }
 .flower {
   margin-top: 300px;
-
   margin-left: 25%;
   height: 40%;
   width: 40%;
 }
-.flowertwo {
-  width: 100%;
-  margin-top: 20%;
+.pagetwoflower {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  margin-left: 200px;
+}
+.lastflower {
+  position: absolute;
+  left: 500px;
+  top: 250px;
+}
+
+.leftvid {
+  height: 200px;
 }
 audio {
   margin-top: 20%;
   margin-left: 40%;
+}
+.page2bg {
+  height: 100%;
+  width: 100%;
 }
 
 .animation1 {
   height: 100%;
   width: 100%;
   background-color: black;
+  background-image: url('webPage2.gif');
   /* animation: fadeIn ease 20s;
   -webkit-animation: fadeIn ease 20s;
   -moz-animation: fadeIn ease 20s;
@@ -90,30 +105,30 @@ audio {
   }
 }
 
-button {
-  background-color: #4caf50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-bottom: 10px;
+.please {
+  width: 400px;
+  height: 320px;
+  background: url(test.gif);
+  background-repeat: no-repeat;
+
+  /* The points are: centered top, left bottom, right bottom */
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
 }
-video {
-  width: 350px;
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 90%;
+
+  object-fit: cover;
 }
-.rightvid {
-  float: right;
-}
-.fire {
-  margin-left: 35%;
-  margin-top: 10%;
-}
-.topdiv {
-  margin-left: 35%;
-  margin-top: 15%;
+
+.top {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid blue;
 }
 
 ​ .div1 {

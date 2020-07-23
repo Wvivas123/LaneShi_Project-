@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
 
   $('html, body').animate({ scrollTop: $('.animation1').offset().top }, 1000);
   // On click  increment to total
-  $('.topdiv').click(function () {
+  $('.circle').click(function () {
     if (click1 === true) {
       total = div1 + total;
       console.log(total);
@@ -18,7 +18,7 @@ jQuery(document).ready(function ($) {
       console.log('it works');
     }
   });
-  $('.leftvid').click(function () {
+  $('.square').click(function () {
     if (click2 === true) {
       total = div2 + total;
       console.log(total);
@@ -27,7 +27,7 @@ jQuery(document).ready(function ($) {
       console.log('it works');
     }
   });
-  $('.rightvid').click(function () {
+  $('.please').click(function () {
     if (click3 === true) {
       total = div3 + total;
       console.log(total);
@@ -38,7 +38,7 @@ jQuery(document).ready(function ($) {
   });
 
   //On Click Dessolve the Body and display the Div
-  $('.fire').click(function () {
+  $('.lastflower').click(function () {
     $('.animation1').fadeOut('slow', function () {
       // Animation complete.
       if (total === 0) {
