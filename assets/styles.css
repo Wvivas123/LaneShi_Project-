@@ -50,12 +50,15 @@ audio {
   height: 100%;
   width: 100%;
 }
+.experience {
+  margin-top: 0px;
+}
 
 .animation1 {
   height: 100%;
   width: 100%;
   background-color: black;
-  background-image: url('webPage2.gif');
+
   /* animation: fadeIn ease 20s;
   -webkit-animation: fadeIn ease 20s;
   -moz-animation: fadeIn ease 20s;
