@@ -3,7 +3,7 @@ body {
   margin: 0px;
   height: 100%;
   width: 100%;
-  color: black;
+  color: yellow;
   background-color: black;
   overflow: hidden;
 }
@@ -26,6 +26,9 @@ body {
   margin-left: 25%;
   height: 40%;
   width: 40%;
+}
+.experience {
+  margin-top: 0px;
 }
 .pagetwoflower {
   display: inline-block;
