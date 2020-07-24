@@ -1,4 +1,8 @@
 jQuery(document).ready(function ($) {
+  $('.int').hide();
+  $('.experience').hide();
+  $('.hon').hide();
+
   let total = 0;
   let div1 = 1;
   let div2 = 3;
@@ -11,6 +15,8 @@ jQuery(document).ready(function ($) {
   // On click  increment to total
   $('.circle').click(function () {
     if (click1 === true) {
+      $('.int').show();
+
       total = div1 + total;
       console.log(total);
       click1 = false;
@@ -20,6 +26,8 @@ jQuery(document).ready(function ($) {
   });
   $('.square').click(function () {
     if (click2 === true) {
+      $('.experience').show();
+
       total = div2 + total;
       console.log(total);
       click2 = false;
@@ -29,6 +37,8 @@ jQuery(document).ready(function ($) {
   });
   $('.please').click(function () {
     if (click3 === true) {
+      $('.hon').show();
+
       total = div3 + total;
       console.log(total);
       click3 = false;

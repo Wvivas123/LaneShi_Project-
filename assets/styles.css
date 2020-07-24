@@ -6,6 +6,14 @@ body {
   color: yellow;
   background-color: black;
   overflow: hidden;
+  font-family: silom;
+}
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('myfont.woff2') format('woff2'), url('myfont.woff') format('woff');
+}
+.square {
+  margin-left: 5%;
 }
 
 .backgr {
@@ -27,6 +35,10 @@ body {
   height: 40%;
   width: 40%;
 }
+.hon {
+  margin-left: 4%;
+  margin-top: 0px;
+}
 .experience {
   margin-top: 0px;
 }
@@ -44,6 +56,7 @@ body {
 
 .leftvid {
   height: 200px;
+  width: 20%;
 }
 audio {
   margin-top: 20%;
@@ -117,12 +130,14 @@ audio {
   /* The points are: centered top, left bottom, right bottom */
   clip-path: polygon(50% 0, 0 100%, 100% 100%);
 }
-
+.int {
+  margin-left: 5%;
+}
 .circle {
   width: 200px;
   height: 200px;
   border-radius: 90%;
-
+  margin-left: 5%;
   object-fit: cover;
 }
 
