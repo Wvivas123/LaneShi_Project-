@@ -8,10 +8,7 @@ body {
   overflow: hidden;
   font-family: silom;
 }
-@font-face {
-  font-family: 'MyWebFont';
-  src: url('myfont.woff2') format('woff2'), url('myfont.woff') format('woff');
-}
+
 .square {
   margin-left: 5%;
 }
@@ -70,13 +67,9 @@ audio {
 .animation1 {
   height: 100%;
   width: 100%;
-
+  position: fixed;
   background-image: url('Web_Page2.gif');
-  /* animation: fadeIn ease 20s;
-  -webkit-animation: fadeIn ease 20s;
-  -moz-animation: fadeIn ease 20s;
-  -o-animation: fadeIn ease 20s;
-  -ms-animation: fadeIn ease 20s;*/
+  background-size: 100% 100%;
 }
 .fadeout {
   animation: fadeOut ease 20s;
