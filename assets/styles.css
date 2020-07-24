@@ -303,4 +303,33 @@ audio {
     margin-top: 90%;
     margin-left: 10%;
   }
+  .animation1 {
+    background-image: url('mobilePage2.gif');
+  }
+  .topdiv {
+    margin-left: 0%;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+
+    margin-left: 5%;
+    object-fit: cover;
+  }
+  .square {
+    display: inline;
+    margin-left: 5%;
+  }
+  .leftvid {
+    height: 100px;
+    width: 50%;
+    margin-left: 0%;
+  }
+  .please {
+    margin-left: 5%;
+    width: 300px;
+    height: 150px;
+    background: url(test.gif);
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
 }
