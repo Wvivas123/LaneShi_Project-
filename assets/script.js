@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
   // On click  increment to total
   $('.circle').click(function () {
     if (click1 === true && counter == 0) {
-      $('.int').prepend('<span>1.</span>');
+      $('.int').prepend('<span1.</span>');
       counter++;
       total.push(1);
       click1 = false;
