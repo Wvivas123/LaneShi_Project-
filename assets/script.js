@@ -105,7 +105,7 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 2
       ) {
         $('.front').append(
-          '<audio src="assets/song0.mp3" controls autoplay></audio>'
+          '<audio src="assets/123.mp3" controls autoplay></audio>'
         );
       }
       if (
@@ -114,7 +114,7 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 0
       ) {
         $('.front').append(
-          '<audio src="assets/song1.mp3" controls autoplay></audio>'
+          '<audio src="assets/231.mp3" controls autoplay></audio>'
         );
       }
       if (
@@ -123,7 +123,7 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 1
       ) {
         $('.front').append(
-          '<audio src="assets/song3.mp3" controls autoplay></audio>'
+          '<audio src="assets/312.mp3" controls autoplay></audio>'
         );
       }
       if (
@@ -132,7 +132,7 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 0
       ) {
         $('.front').append(
-          '<audio src="assets/song4.mp3" controls autoplay></audio>'
+          '<audio src="assets/321.mp3" controls autoplay></audio>'
         );
       }
 
@@ -142,7 +142,7 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 2
       ) {
         $('.front').append(
-          '<audio src="assets/song5.mp3" controls autoplay></audio>'
+          '<audio src="assets/213.mp3" controls autoplay></audio>'
         );
       }
     });
