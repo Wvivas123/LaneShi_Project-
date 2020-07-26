@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
   // On click  increment to total
   $('.circle').click(function () {
     if (click1 === true && counter == 0) {
-      $('.int').prepend('<span>1.</span>');
+      $('.int').prepend('<span>I.</span>');
       counter++;
       total.push(1);
       click1 = false;
@@ -18,7 +18,7 @@ jQuery(document).ready(function ($) {
       console.log(total);
     }
     if (click1 === true && counter == 1) {
-      $('.int').prepend('<span>2.</span>');
+      $('.int').prepend('<span>II.</span>');
       counter++;
       total.push(1);
       click1 = false;
@@ -26,7 +26,7 @@ jQuery(document).ready(function ($) {
       console.log(total);
     }
     if (click1 === true && counter == 2) {
-      $('.int').prepend('<span>3.</span>');
+      $('.int').prepend('<span>III.</span>');
       counter++;
       total.push(1);
       click1 = false;
@@ -39,7 +39,7 @@ jQuery(document).ready(function ($) {
 
   $('.square').click(function () {
     if (click2 === true && counter == 0) {
-      $('.experience').prepend('<span>1.</span>');
+      $('.experience').prepend('<span>I.</span>');
       counter++;
       total.push(2);
       click2 = false;
@@ -47,7 +47,7 @@ jQuery(document).ready(function ($) {
       console.log(total);
     }
     if (click2 === true && counter == 1) {
-      $('.experience').prepend('<span>2.</span>');
+      $('.experience').prepend('<span>II.</span>');
       counter++;
       total.push(2);
       click2 = false;
@@ -55,7 +55,7 @@ jQuery(document).ready(function ($) {
       console.log(total);
     }
     if (click2 === true && counter == 2) {
-      $('.experience').prepend('<span>3.</span>');
+      $('.experience').prepend('<span>III.</span>');
       counter++;
       total.push(2);
       click2 = false;
@@ -68,7 +68,7 @@ jQuery(document).ready(function ($) {
 
   $('.please').click(function () {
     if (click3 === true && counter == 0) {
-      $('.hon').prepend('<span>1.</span>');
+      $('.hon').prepend('<span>I.</span>');
       counter++;
       total.push(3);
       click3 = false;
@@ -76,7 +76,7 @@ jQuery(document).ready(function ($) {
       console.log(total);
     }
     if (click3 === true && counter == 1) {
-      $('.hon').prepend('<span>2.</span>');
+      $('.hon').prepend('<span>II.</span>');
       counter++;
       total.push(3);
       click3 = false;
@@ -84,7 +84,7 @@ jQuery(document).ready(function ($) {
       console.log(total);
     }
     if (click3 === true && counter == 2) {
-      $('.hon').prepend('<span>3.</span>');
+      $('.hon').prepend('<span>III.</span>');
       counter++;
       total.push(3);
       click3 = false;
