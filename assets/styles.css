@@ -320,7 +320,7 @@ audio {
     width: 100px;
     height: 100px;
 
-    margin-left: 5%;
+    margin-left: 25%;
     object-fit: cover;
   }
   .square {
@@ -330,7 +330,7 @@ audio {
   .leftvid {
     height: 100px;
     width: 50%;
-    margin-left: 0%;
+    margin-left: 16%;
   }
   .please {
     margin-left: 5%;
@@ -343,9 +343,16 @@ audio {
   .lastflower {
     width: 420px;
     left: 0px;
-    top: 451px;
+    top: 555px;
   }
   .int {
     display: inherit;
+    margin-left: 25%;
+  }
+  .experience {
+    margin-left: 22%;
+  }
+  .hon {
+    margin-left: 25%;
   }
 }
