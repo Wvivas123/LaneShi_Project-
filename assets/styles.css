@@ -338,4 +338,7 @@ audio {
     left: 0px;
     top: 451px;
   }
+  .int {
+    display: none;
+  }
 }

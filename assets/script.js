@@ -6,37 +6,64 @@ jQuery(document).ready(function ($) {
   let click1 = true;
   let click2 = true;
   let click3 = true;
+  let counter = 0;
 
   $('html, body').animate({ scrollTop: $('.animation1').offset().top }, 1000);
   // On click  increment to total
   $('.circle').click(function () {
-    if (click1 === true) {
-      $('.int').prepend('<span>I.</span>');
-
-      total = div1 + total;
-      console.log(total);
+    if (click1 === true && counter == 0) {
+      $('.int').prepend('<span>1.</span>');
+      counter++;
+      click1 = false;
+    }
+    if (click1 === true && counter == 1) {
+      $('.int').prepend('<span>2.</span>');
+      counter++;
+      click1 = false;
+    }
+    if (click1 === true && counter == 2) {
+      $('.int').prepend('<span>3.</span>');
+      counter++;
       click1 = false;
     } else {
       console.log('it works');
     }
   });
-  $('.square').click(function () {
-    if (click2 === true) {
-      $('.experience').prepend('<span>II.</span>');
 
-      total = div2 + total;
-      console.log(total);
+  $('.square').click(function () {
+    if (click2 === true && counter == 0) {
+      $('.experience').prepend('<span>1.</span>');
+      counter++;
+      click2 = false;
+    }
+    if (click2 === true && counter == 1) {
+      $('.experience').prepend('<span>2.</span>');
+      counter++;
+      click2 = false;
+    }
+    if (click2 === true && counter == 2) {
+      $('.experience').prepend('<span>3.</span>');
+      counter++;
       click2 = false;
     } else {
       console.log('it works');
     }
   });
-  $('.please').click(function () {
-    if (click3 === true) {
-      $('.hon').prepend('<span>III.</span>');
 
-      total = div3 + total;
-      console.log(total);
+  $('.please').click(function () {
+    if (click3 === true && counter == 0) {
+      $('.hon').prepend('<span>1.</span>');
+      counter++;
+      click3 = false;
+    }
+    if (click3 === true && counter == 1) {
+      $('.hon').prepend('<span>2.</span>');
+      counter++;
+      click3 = false;
+    }
+    if (click3 === true && counter == 2) {
+      $('.hon').prepend('<span>3.</span>');
+      counter++;
       click3 = false;
     } else {
       console.log('it works');
