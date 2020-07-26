@@ -346,6 +346,6 @@ audio {
     top: 451px;
   }
   .int {
-    display: none;
+    display: inherit;
   }
 }
