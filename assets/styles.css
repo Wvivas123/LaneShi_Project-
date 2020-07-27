@@ -274,7 +274,7 @@ audio {
     opacity: 1;
   }
 }
-@media only screen and (min-width: 375px) and (max-width: 812px) {
+@media only screen and (min-width: 280px) and (max-width: 700px) {
   /* STYLES GO HERE */
 
   html,
@@ -329,7 +329,7 @@ audio {
   }
   audio {
     margin-top: 90%;
-    margin-left: 10%;
+    margin-left: 15%;
   }
   .animation1 {
     background-image: url('mobilePage2.gif');
