@@ -1,4 +1,8 @@
 jQuery(document).ready(function ($) {
+  $('button').click(function () {
+    $('.moblieonly').hide('slow');
+  });
+
   let total = [];
 
   let click1 = true;
@@ -8,6 +12,7 @@ jQuery(document).ready(function ($) {
 
   $('html, body').animate({ scrollTop: $('.animation1').offset().top }, 1000);
   // On click  increment to total
+
   $('.circle').click(function () {
     if (click1 === true && counter == 0) {
       $('.int').prepend('<span>I.</span>');
