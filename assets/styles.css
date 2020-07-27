@@ -188,11 +188,19 @@ audio {
   margin-left: 5%;
 }
 .circle {
-  width: 150px;
+  width: 170px;
   height: 150px;
   border-radius: 90%;
   margin-left: 5%;
-  object-fit: cover;
+  object-fit: unset;
+
+  animation: shake 10s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+.circledance {
+  background-color: black;
 }
 
 .top {
