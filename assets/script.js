@@ -1,4 +1,5 @@
 jQuery(document).ready(function ($) {
+  $('.lastflower').hide();
   $('button').click(function () {
     $('.moblieonly').hide('slow');
   });
@@ -44,6 +45,7 @@ jQuery(document).ready(function ($) {
       $('.int').prepend('<span id="num3">3.</span>');
       counter++;
       total.push(1);
+      $('.lastflower').fadeIn('slow');
       click1 = false;
 
       console.log(total);
@@ -73,6 +75,8 @@ jQuery(document).ready(function ($) {
       $('.experience').prepend('<span id="num3">3.</span>');
       counter++;
       total.push(2);
+      $('.lastflower').fadeIn('slow');
+
       click2 = false;
 
       console.log(total);
@@ -102,6 +106,7 @@ jQuery(document).ready(function ($) {
       $('.hon').prepend('<span id="num3">3.</span>');
       counter++;
       total.push(3);
+      $('.lastflower').fadeIn('slow');
       click3 = false;
 
       console.log(total);
