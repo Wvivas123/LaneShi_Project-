@@ -11,10 +11,6 @@ body {
 
 .square {
   margin-left: 5%;
-  animation: shake 10s;
-
-  /* When the animation is finished, start again */
-  animation-iteration-count: infinite;
 }
 @keyframes shake {
   0% {
@@ -192,8 +188,6 @@ audio {
   border-radius: 90%;
   margin-left: 5%;
   object-fit: cover;
-}
-.circledance {
 }
 
 .top {
