@@ -90,6 +90,10 @@ body {
 .hon {
   margin-left: 5%;
   margin-top: 12px;
+  animation: shake 10s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
 }
 .experience {
   margin-top: 0px;
@@ -186,6 +190,10 @@ audio {
 }
 .int {
   margin-left: 5%;
+  animation: shake 10s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
 }
 .circle {
   width: 170px;
