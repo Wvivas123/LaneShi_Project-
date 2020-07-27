@@ -11,7 +11,12 @@ body {
 
 .square {
   margin-left: 5%;
+  animation: shake 10s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
 }
+
 @keyframes shake {
   0% {
     transform: translate(2px, 2px) rotate(0deg);
@@ -99,7 +104,7 @@ body {
 .lastflower {
   position: absolute;
   left: 500px;
-  top: 250px;
+  top: 290px;
 }
 
 .leftvid {
