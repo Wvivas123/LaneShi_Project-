@@ -8,14 +8,22 @@ body {
   overflow: hidden;
   font-family: silom;
 }
+.clickme {
+  background-color: cyan;
+  height: 250px;
+}
 
 .square {
   width: 250px;
-  margin-left: 8%;
+  display: inline;
+  margin-left: 5%;
   animation: shake 10s;
 
   /* When the animation is finished, start again */
   animation-iteration-count: infinite;
+}
+.rbutton-mobile {
+  visibility: hidden;
 }
 
 @keyframes shake {
@@ -69,10 +77,12 @@ body {
   height: 100%;
 }
 .rbutton {
-  float: right;
-  margin-right: 10%;
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 20px;
   height: 50px;
   width: 100px;
+  display: inline-grid;
 }
 .box {
   position: fixed;
@@ -108,9 +118,10 @@ body {
 }
 
 .lastflower {
+  width: 31.25rem;
   position: absolute;
-  left: 500px;
-  top: 290px;
+  left: 30%;
+  top: 35%;
 }
 
 .leftvid {
@@ -465,8 +476,12 @@ audio {
   .mobiletri {
     margin-left: 7%;
   }
-  .rbutton {
+  .rbutton-mobile {
+    visibility: visible;
     float: none;
     margin-left: 35%;
+  }
+  .rbutton {
+    visibility: hidden;
   }
 }

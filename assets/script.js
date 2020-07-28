@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
   $('.lastflower').hide();
-  
+
   $('button').click(function () {
     $('.moblieonly').hide('slow');
   });
@@ -55,7 +55,7 @@ jQuery(document).ready(function ($) {
     }
   });
 
-  $('.square').click(function () {
+  $('#squareclick').click(function () {
     if (click2 === true && counter == 0) {
       $('.experience').prepend('<span id="num1">1.</span>');
       counter++;
