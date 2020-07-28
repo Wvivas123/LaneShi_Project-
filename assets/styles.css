@@ -142,7 +142,8 @@ audio {
   width: 100%;
   position: fixed;
   background-image: url('Web_Page2.gif');
-  background-size: 100% 100%;
+  background-size: 85% 85%;
+  background-position: right 100px;
 }
 .fadeout {
   animation: fadeOut ease 20s;
