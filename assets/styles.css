@@ -435,7 +435,7 @@ audio {
   .lastflower {
     width: 420px;
     left: 0px;
-    top: 555px;
+    top: 520px;
   }
 
   .int {
@@ -460,7 +460,7 @@ audio {
     width: 100%;
   }
   .mobiletri {
-    margin-left: 5px;
+    margin-left: 2%;
   }
   .rbutton {
     float: none;
