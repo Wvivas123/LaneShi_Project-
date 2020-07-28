@@ -142,7 +142,7 @@ audio {
   width: 100%;
   position: fixed;
   background-image: url('Web_Page2.gif');
-  background-size: 85% 85%;
+  background-size: 100% 100%;
   background-position: right 100px;
 }
 .fadeout {
@@ -484,5 +484,6 @@ audio {
   }
   .rbutton {
     visibility: hidden;
+    display: none;
   }
 }
