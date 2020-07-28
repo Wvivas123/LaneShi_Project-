@@ -180,8 +180,6 @@ audio {
   margin-left: 7%;
   width: 300px;
   height: 200px;
-  background: url(test.gif);
-  background-repeat: no-repeat;
 
   /* The points are: centered top, left bottom, right bottom */
   clip-path: polygon(50% 0, 0 100%, 100% 100%);
@@ -349,6 +347,9 @@ audio {
     color: black;
     background-color: white;
   }
+  .mobileheader {
+    display: inline-flex;
+  }
   .moblieonly {
     visibility: visible;
     background-image: url('mobile1Idea2_text.gif');
@@ -408,12 +409,13 @@ audio {
     width: 100px;
     height: 100px;
     animation: none;
-    margin-left: 25%;
+    margin-left: 0%;
     object-fit: cover;
   }
   .square {
+    width: 120px;
     display: inline;
-    margin-left: 5%;
+    margin-left: 0%;
     animation: none;
   }
   .leftvid {
@@ -423,9 +425,9 @@ audio {
   }
   .please {
     animation: none;
-    margin-left: 5%;
-    width: 300px;
-    height: 150px;
+    margin-left: 0%;
+    width: 100px;
+    height: 86px;
     background: url(test.gif);
     background-repeat: no-repeat;
     clip-path: polygon(50% 0, 0 100%, 100% 100%);
@@ -437,19 +439,31 @@ audio {
   }
 
   .int {
+    margin-top: 0px;
     display: inherit;
-    margin-left: 25%;
+    margin-left: 0%;
   }
   .experience {
-    margin-left: 22%;
+    margin-left: 0%;
   }
   .hon {
-    margin-left: 25%;
+    margin-top: 0px;
+    margin-left: 0%;
   }
-  button {
-    margin-top: 700px;
+  .pageonebut {
+    margin-top: 600px;
     width: 66px;
     height: 56px;
     margin-left: 40%;
+  }
+  .mobilehead {
+    width: 100%;
+  }
+  .mobiletri {
+    margin-left: 5px;
+  }
+  .rbutton {
+    float: none;
+    margin-left: 35%;
   }
 }
