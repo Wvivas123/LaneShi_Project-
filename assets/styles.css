@@ -405,13 +405,14 @@ audio {
   .circle {
     width: 100px;
     height: 100px;
-
+    animation: none;
     margin-left: 25%;
     object-fit: cover;
   }
   .square {
     display: inline;
     margin-left: 5%;
+    animation: none;
   }
   .leftvid {
     height: 100px;
@@ -419,6 +420,7 @@ audio {
     margin-left: 16%;
   }
   .please {
+    animation: none;
     margin-left: 5%;
     width: 300px;
     height: 150px;

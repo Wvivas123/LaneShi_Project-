@@ -1,5 +1,6 @@
 jQuery(document).ready(function ($) {
   $('.lastflower').hide();
+  
   $('button').click(function () {
     $('.moblieonly').hide('slow');
   });
