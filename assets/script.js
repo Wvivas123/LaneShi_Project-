@@ -1,5 +1,6 @@
 jQuery(document).ready(function ($) {
   $('.lastflower').hide();
+  $('.front').hide();
 
   $('button').click(function () {
     $('.moblieonly').hide('slow');
@@ -120,6 +121,7 @@ jQuery(document).ready(function ($) {
   $('.lastflower').click(function () {
     $('.animation1').fadeOut('slow', function () {
       // Animation complete.
+      $('.front').show();
       if (
         total.indexOf(1) == 0 &&
         total.indexOf(2) == 1 &&

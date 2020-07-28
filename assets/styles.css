@@ -12,6 +12,13 @@ body {
   background-color: cyan;
   height: 250px;
 }
+.front {
+  width: 100%;
+  height: 100%;
+  background-image: url('page3.gif');
+
+  background-size: 100% 100%;
+}
 
 .square {
   width: 250px;
