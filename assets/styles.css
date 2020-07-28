@@ -94,7 +94,7 @@ body {
 }
 .flower {
   margin-top: 300px;
-  margin-left: 25%;
+  margin-left: 29%;
   height: 40%;
   width: 40%;
 }
@@ -485,5 +485,45 @@ audio {
   .rbutton {
     visibility: hidden;
     display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .lastflower {
+    top: 25%;
+    left: 25%;
+  }
+  .animation1 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: url('Web_Page2.gif');
+    background-size: 60% 60%;
+    background-position: right 100px;
+    background-repeat: no-repeat;
+  }
+  .flower {
+    margin-left: 0%;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1025px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .lastflower {
+    top: 19%;
+    left: 25%;
+  }
+  .animation1 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: url('Web_Page2.gif');
+    background-size: 60% 60%;
+    background-position: right 100px;
+    background-repeat: no-repeat;
+  }
+  .flower {
+    margin-left: 15%;
+    margin-top: 440px;
+  }
+  .box {
+    height: 60%;
   }
 }
