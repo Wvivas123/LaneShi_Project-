@@ -25,6 +25,15 @@ jQuery(document).ready(function ($) {
     $('#num2').remove();
     $('#num3').remove();
   });
+  $('.rbutton-mobile').click(function () {
+    counter = 0;
+    click1 = true;
+    click2 = true;
+    click3 = true;
+    $('#num1').remove();
+    $('#num2').remove();
+    $('#num3').remove();
+  });
 
   $('.circle').click(function () {
     if (click1 === true && counter == 0) {
