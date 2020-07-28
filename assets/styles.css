@@ -494,7 +494,7 @@ audio {
     display: none;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+@media only screen and (min-device-width: 701px) and (max-device-width: 1025px) {
   .lastflower {
     top: 25%;
     left: 25%;
@@ -512,7 +512,7 @@ audio {
     margin-left: 0%;
   }
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1224px) {
+@media only screen and (min-device-width: 1026px) and (max-device-width: 1224px) {
   .lastflower {
     top: 19%;
     left: 25%;
@@ -528,7 +528,7 @@ audio {
   }
   .flower {
     margin-left: 15%;
-    margin-top: 440px;
+    margin-top: 19%;
   }
   .box {
     height: 60%;
