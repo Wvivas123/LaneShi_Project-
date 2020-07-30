@@ -406,8 +406,9 @@ audio {
     width: 100%;
   }
   .flowertwo {
-    margin-left: 5%;
-    height: 200px;
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 12.5rem;
   }
   .fire {
     margin-left: 10%;
