@@ -125,10 +125,10 @@ body {
 }
 
 .lastflower {
-  width: 31.25rem;
+  width: 9rem;
   position: absolute;
-  left: 36%;
-  top: 35%;
+  left: 49%;
+  top: 40%;
 }
 
 .leftvid {
@@ -400,7 +400,8 @@ audio {
     width: 100%;
   }
   .flowertwo {
-    height: 270px;
+    margin-left: 5%;
+    height: 200px;
   }
   .fire {
     margin-left: 10%;
@@ -458,9 +459,9 @@ audio {
     clip-path: polygon(50% 0, 0 100%, 100% 100%);
   }
   .lastflower {
-    width: 420px;
-    left: 0px;
-    top: 500px;
+    width: 100px;
+    left: 150px;
+    top: 600px;
   }
 
   .int {
@@ -499,8 +500,8 @@ audio {
 }
 @media only screen and (min-device-width: 701px) and (max-device-width: 1025px) {
   .lastflower {
-    top: 25%;
-    left: 25%;
+    top: 30%;
+    left: 45%;
   }
   .animation1 {
     height: 100%;
@@ -517,8 +518,8 @@ audio {
 }
 @media only screen and (min-device-width: 1026px) and (max-device-width: 1224px) {
   .lastflower {
-    top: 19%;
-    left: 25%;
+    top: 30%;
+    left: 39%;
   }
   .animation1 {
     height: 100%;
@@ -539,6 +540,6 @@ audio {
 }
 @media only screen and (min-device-width: 1224px) and (max-device-width: 1500px) {
   .flower {
-    margin-left: 24%;
+    margin-left: 54%;
   }
 }
