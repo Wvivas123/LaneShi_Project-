@@ -376,6 +376,7 @@ audio {
   }
   .mobileheader {
     display: inline-flex;
+    margin-top: 20px;
   }
   .moblieonly {
     visibility: visible;
@@ -497,6 +498,8 @@ audio {
     visibility: visible;
     float: none;
     margin-left: 35%;
+    height: 36px;
+    width: 116px;
   }
   .rbutton {
     visibility: hidden;
