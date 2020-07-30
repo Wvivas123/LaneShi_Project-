@@ -386,7 +386,7 @@ audio {
     height: 100%;
   }
   .circledance {
-    margin-left: 5%;
+    margin-left: 7%;
   }
   .mobilebutton {
     display: absolute;
@@ -448,7 +448,7 @@ audio {
   .square {
     width: 120px;
     display: inline;
-    margin-left: 3%;
+    margin-left: 5%;
     animation: none;
   }
   .leftvid {
@@ -493,7 +493,7 @@ audio {
     width: 100%;
   }
   .mobiletri {
-    margin-left: 5%;
+    margin-left: 6%;
   }
   .rbutton-mobile {
     visibility: visible;
