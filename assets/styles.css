@@ -23,7 +23,7 @@ body {
 .square {
   width: 250px;
   display: inline;
-  margin-left: 5%;
+  margin-left: 7%;
   animation: shake 10s;
 
   /* When the animation is finished, start again */
@@ -106,7 +106,7 @@ body {
   width: 40%;
 }
 .hon {
-  margin-left: 10%;
+  margin-left: 15%;
   margin-top: 12px;
   animation: shake 10s;
 
@@ -115,7 +115,7 @@ body {
 }
 .experience {
   margin-top: 0px;
-  margin-left: 10%;
+  margin-left: 16%;
 }
 .pagetwoflower {
   display: inline-block;
@@ -196,7 +196,7 @@ audio {
 }
 
 .please {
-  margin-left: 7%;
+  margin-left: 12%;
   width: 300px;
   height: 200px;
 
@@ -208,7 +208,7 @@ audio {
   animation-iteration-count: infinite;
 }
 .int {
-  margin-left: 10%;
+  margin-left: 16%;
   animation: shake 10s;
 
   /* When the animation is finished, start again */
@@ -218,7 +218,7 @@ audio {
   width: 190px;
   height: 170px;
   border-radius: 90%;
-  margin-left: 10%;
+  margin-left: 15%;
   object-fit: unset;
 
   animation: shake 10s;
