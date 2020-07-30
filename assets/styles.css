@@ -448,7 +448,7 @@ audio {
   .square {
     width: 120px;
     display: inline;
-    margin-left: 5%;
+    margin-left: 8%;
     animation: none;
   }
   .leftvid {
@@ -493,7 +493,7 @@ audio {
     width: 100%;
   }
   .mobiletri {
-    margin-left: 6%;
+    margin-left: 7%;
   }
   .rbutton-mobile {
     visibility: visible;
