@@ -427,8 +427,8 @@ audio {
     width: 250px;
   }
   audio {
-    margin-top: 60%;
-    margin-left: 9%;
+    margin-top: 50%;
+    margin-left: 13%;
   }
   .animation1 {
     background-image: url('mobilePage2.gif');
@@ -466,7 +466,7 @@ audio {
   .lastflower {
     width: 100px;
     left: 150px;
-    top: 600px;
+    top: 500px;
   }
 
   .int {
