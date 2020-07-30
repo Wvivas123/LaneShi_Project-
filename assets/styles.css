@@ -503,6 +503,9 @@ audio {
     top: 30%;
     left: 45%;
   }
+  .flower {
+    margin-left: 2%;
+  }
 }
 @media only screen and (min-width: 1026px) and (max-width: 1224px) {
   .lastflower {
@@ -520,14 +523,13 @@ audio {
   }
   .flower {
     margin-left: 15%;
-    margin-top: 19%;
   }
   .box {
-    height: 60%;
+    height: 100%;
   }
 }
 @media only screen and (min-width: 1224px) and (max-width: 1500px) {
   .flower {
-    margin-left: 54%;
+    margin-left: 20%;
   }
 }
