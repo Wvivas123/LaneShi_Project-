@@ -19,6 +19,9 @@ body {
 
   background-size: 100% 100%;
 }
+.mobilehead {
+  width: 40%;
+}
 
 .square {
   width: 250px;
@@ -506,6 +509,9 @@ audio {
   .flower {
     margin-left: 2%;
   }
+  .mobilehead {
+    width: 46%;
+  }
 }
 @media only screen and (min-width: 1026px) and (max-width: 1224px) {
   .lastflower {
@@ -527,9 +533,15 @@ audio {
   .box {
     height: 100%;
   }
+  .mobilehead {
+    width: 44%;
+  }
 }
 @media only screen and (min-width: 1224px) and (max-width: 1500px) {
   .flower {
     margin-left: 20%;
+  }
+  .mobilehead {
+    width: 42%;
   }
 }
