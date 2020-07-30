@@ -141,6 +141,16 @@ jQuery(document).ready(function ($) {
         );
       }
       if (
+        total.indexOf(1) == 0 &&
+        total.indexOf(2) == 2 &&
+        total.indexOf(3) == 1
+      ) {
+        $('.front').append(
+          '<audio src="assets/132.mp3" controls autoplay></audio>'
+        );
+      }
+
+      if (
         total.indexOf(1) == 1 &&
         total.indexOf(2) == 2 &&
         total.indexOf(3) == 0
