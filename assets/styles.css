@@ -498,25 +498,13 @@ audio {
     display: none;
   }
 }
-@media only screen and (min-device-width: 701px) and (max-device-width: 1025px) {
+@media only screen and (min-width: 701px) and (max-width: 1025px) {
   .lastflower {
     top: 30%;
     left: 45%;
   }
-  .animation1 {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    background-image: url('Web_Page2.gif');
-    background-size: 60% 60%;
-    background-position: right 100px;
-    background-repeat: no-repeat;
-  }
-  .flower {
-    margin-left: 0%;
-  }
 }
-@media only screen and (min-device-width: 1026px) and (max-device-width: 1224px) {
+@media only screen and (min-width: 1026px) and (max-width: 1224px) {
   .lastflower {
     top: 30%;
     left: 39%;
@@ -538,7 +526,7 @@ audio {
     height: 60%;
   }
 }
-@media only screen and (min-device-width: 1224px) and (max-device-width: 1500px) {
+@media only screen and (min-width: 1224px) and (max-width: 1500px) {
   .flower {
     margin-left: 54%;
   }
