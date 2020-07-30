@@ -20,6 +20,7 @@ body {
   background-size: 100% 100%;
 }
 .mobilehead {
+  height: 11%;
   width: 40%;
 }
 
@@ -503,7 +504,7 @@ audio {
 }
 @media only screen and (min-width: 701px) and (max-width: 1025px) {
   .lastflower {
-    top: 30%;
+    top: 27%;
     left: 45%;
   }
   .flower {
@@ -515,8 +516,8 @@ audio {
 }
 @media only screen and (min-width: 1026px) and (max-width: 1224px) {
   .lastflower {
-    top: 30%;
-    left: 39%;
+    top: 28%;
+    left: 43%;
   }
   .animation1 {
     height: 100%;
@@ -534,14 +535,20 @@ audio {
     height: 100%;
   }
   .mobilehead {
+    height: 14%;
     width: 44%;
   }
 }
 @media only screen and (min-width: 1224px) and (max-width: 1500px) {
   .flower {
+    height: 11%;
     margin-left: 20%;
   }
+  .lastflower {
+    left: 50%;
+  }
   .mobilehead {
+    height: 12%;
     width: 42%;
   }
 }
