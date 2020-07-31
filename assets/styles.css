@@ -446,6 +446,7 @@ audio {
   }
   .animation1 {
     background-image: url('mobilePage2.gif');
+    background-size: 100% 100%;
   }
   .topdiv {
     margin-left: 0%;
