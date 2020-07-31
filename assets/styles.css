@@ -452,7 +452,7 @@ audio {
     width: 100%;
     height: 62%;
     /*display: inline;*/
-    margin-left: 5%;
+    margin-left: 4%;
     animation: none;
   }
   .leftvid {
@@ -497,7 +497,7 @@ audio {
     width: 100%;
   }
   .mobiletri {
-    margin-left: 3%;
+    margin-left: 2%;
   }
   .rbutton-mobile {
     visibility: visible;
