@@ -205,6 +205,7 @@ audio {
   height: 200px;
 
   /* The points are: centered top, left bottom, right bottom */
+  -webkit-clip-path: polygon(50% 0, 0 100%, 100% 100%);
   clip-path: polygon(50% 0, 0 100%, 100% 100%);
   animation: shake 10s;
 
