@@ -365,7 +365,14 @@ audio {
   }
 }
 /*Mobile */
-@media only screen and (min-width: 280px) and (max-width: 700px) {
+@media only screen and (min-width: 280px) and (max-width: 399px) {
+  audio {
+    margin-top: 50%;
+    margin-left: 6%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
   /* STYLES GO HERE */
 
   html,
