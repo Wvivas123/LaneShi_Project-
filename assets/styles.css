@@ -380,9 +380,9 @@ audio {
     width: 100%;
   }
   .mobileheader {
-    min-width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    min-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: inline-flex;
     margin-top: 5%;
   }
@@ -394,7 +394,7 @@ audio {
     height: 100%;
   }
   .circledance {
-    margin-left: 6%;
+    margin-left: 0%;
     animation: none;
   }
   .mobilebutton {
