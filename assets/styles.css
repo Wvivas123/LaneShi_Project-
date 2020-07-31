@@ -376,6 +376,9 @@ audio {
   .front {
     background-image: url('mobilePage3.2.gif');
   }
+  .animation1 {
+    width: 100%;
+  }
   .mobileheader {
     max-width: 100%;
     display: inline-flex;
