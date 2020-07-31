@@ -449,10 +449,10 @@ audio {
     object-fit: cover;
   }
   .square {
-    width: 100%;
+    width: 90%;
     height: 62%;
     /*display: inline;*/
-    margin-left: 4%;
+    margin-left: 2%;
     animation: none;
   }
   .leftvid {
