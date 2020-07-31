@@ -380,7 +380,9 @@ audio {
     width: 100%;
   }
   .mobileheader {
-    max-width: 80%;
+    min-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: inline-flex;
     margin-top: 5%;
   }
