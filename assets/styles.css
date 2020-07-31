@@ -441,15 +441,16 @@ audio {
     margin-left: 0%;
   }
   .circle {
-    width: 90px;
-    height: 85px;
+    width: 100%;
+    height: 64%;
     animation: none;
     margin-left: 0%;
     object-fit: cover;
   }
   .square {
-    width: 120px;
-    display: inline;
+    width: 100%;
+    height: 62%;
+    /*display: inline;*/
     margin-left: 8%;
     animation: none;
   }
