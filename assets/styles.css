@@ -389,6 +389,7 @@ audio {
   }
   .circledance {
     margin-left: 6%;
+    animation: none;
   }
   .mobilebutton {
     display: absolute;
@@ -498,6 +499,7 @@ audio {
   }
   .mobiletri {
     margin-left: 2%;
+    animation: none;
   }
   .rbutton-mobile {
     visibility: visible;
