@@ -438,8 +438,9 @@ audio {
   }
   audio {
     margin-top: 50%;
-    margin-left: 0%;
-    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
   }
   .animation1 {
     background-image: url('mobilePage2.gif');
