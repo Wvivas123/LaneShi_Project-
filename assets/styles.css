@@ -480,13 +480,16 @@ audio {
     margin-top: 0px;
     display: inherit;
     margin-left: 0%;
+    animation: none;
   }
   .experience {
     margin-left: 0%;
+    animation: none;
   }
   .hon {
     margin-top: 0px;
     margin-left: 0%;
+    animation: none;
   }
   .pageonebut {
     margin-top: 500px;
