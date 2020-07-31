@@ -131,7 +131,7 @@ body {
 .lastflower {
   width: 9rem;
   position: absolute;
-  left: 49%;
+  left: 100%;
   top: 40%;
 }
 
@@ -150,11 +150,12 @@ audio {
 
 .animation1 {
   height: 100%;
-  width: 100%;
+  width: 70%;
   position: fixed;
   background-image: url('Web_Page2.gif');
-  background-size: 100% 100%;
+  background-size: 70% 70%;
   background-position: right 100px;
+  background-repeat: no-repeat;
 }
 .fadeout {
   animation: fadeOut ease 20s;
@@ -518,8 +519,11 @@ audio {
 }
 @media only screen and (min-width: 701px) and (max-width: 1025px) {
   .lastflower {
-    top: 25%;
-    left: 50%;
+    top: 60%;
+    left: 100%;
+  }
+  .animation1 {
+    height: 70%;
   }
   .flower {
     margin-left: 2%;
@@ -531,18 +535,9 @@ audio {
 }
 @media only screen and (min-width: 1026px) and (max-width: 1224px) {
   .lastflower {
-    top: 28%;
-    left: 43%;
+    left: 100%;
   }
-  .animation1 {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    background-image: url('Web_Page2.gif');
-    background-size: 60% 60%;
-    background-position: right 100px;
-    background-repeat: no-repeat;
-  }
+
   .flower {
     margin-left: 15%;
   }
@@ -560,7 +555,7 @@ audio {
     margin-left: 20%;
   }
   .lastflower {
-    left: 50%;
+    left: 100%;
   }
   .mobilehead {
     height: 12%;
