@@ -376,8 +376,9 @@ audio {
     background-image: url('mobilePage3.2.gif');
   }
   .mobileheader {
+    width: 100%;
     display: inline-flex;
-    margin-top: 20px;
+    margin-top: 5%;
   }
   .moblieonly {
     visibility: visible;
