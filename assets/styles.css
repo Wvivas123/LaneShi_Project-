@@ -516,8 +516,9 @@ audio {
     visibility: visible;
     float: none;
     margin-left: 35%;
+    margin-right: 35%;
     height: 36px;
-    width: 116px;
+    width: 30%px;
   }
   .rbutton {
     visibility: hidden;
