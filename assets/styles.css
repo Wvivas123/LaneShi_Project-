@@ -120,6 +120,7 @@ body {
 .experience {
   margin-top: 0px;
   margin-left: 16%;
+  animation: shake 10s;
 }
 .pagetwoflower {
   display: inline-block;
