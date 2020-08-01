@@ -1,4 +1,17 @@
 jQuery(document).ready(function ($) {
+  $('.nah1').hide();
+  $('.nah2').hide();
+  $('.nah3').hide();
+  setTimeout(function () {
+    $('.nah1').show();
+  }, 1000);
+  setTimeout(function () {
+    $('.nah2').show();
+  }, 2000);
+  setTimeout(function () {
+    $('.nah3').show();
+  }, 3000);
+
   setTimeout(function () {
     $('.intro').attr('href', 'main.html');
   }, 18000);
