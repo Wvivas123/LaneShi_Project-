@@ -32,7 +32,9 @@ jQuery(document).ready(function ($) {
     $('#num1').remove();
     $('#num2').remove();
     $('#num3').remove();
+    total = [];
   });
+
   $('.rbutton-mobile').click(function () {
     counter = 0;
     click1 = true;
@@ -41,6 +43,7 @@ jQuery(document).ready(function ($) {
     $('#num1').remove();
     $('#num2').remove();
     $('#num3').remove();
+    total = [];
   });
 
   $('.circle').click(function () {
