@@ -512,9 +512,11 @@ audio {
   }
   .pageonebut {
     margin-top: 500px;
-    width: 66px;
+    width: 20%;
     height: 56px;
     margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 60%;
   }
   .mobilehead {
     width: 100%;
