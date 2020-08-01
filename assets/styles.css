@@ -38,6 +38,7 @@ body {
   visibility: hidden;
 }
 .replay {
+  background-color: antiquewhite;
   height: 10%;
   width: 5%;
   border-radius: 100%;
