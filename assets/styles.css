@@ -388,6 +388,10 @@ audio {
   .front {
     background-image: url('mobilePage3.2.gif');
   }
+  .replay {
+    width: 20%;
+    margin-left: 38%;
+  }
   .animation1 {
     width: 100%;
   }
@@ -547,6 +551,11 @@ audio {
   .lastflower {
     top: 42%;
     left: 100%;
+  }
+  .replay {
+    height: 9%;
+    width: 10%;
+    margin-left: 43%;
   }
   .animation1 {
     height: 50%;
