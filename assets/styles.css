@@ -36,6 +36,11 @@ body {
 .rbutton-mobile {
   visibility: hidden;
 }
+.replay {
+  width: 15%;
+  margin-left: 40%;
+  margin-right: 45%;
+}
 
 @keyframes shake {
   0% {
@@ -140,8 +145,10 @@ body {
   width: 20%;
 }
 audio {
-  margin-top: 20%;
-  margin-left: 40%;
+  width: 25%;
+  margin-right: 39%;
+  margin-left: 35%;
+  margin-top: 10%;
 }
 .page2bg {
   height: 100%;

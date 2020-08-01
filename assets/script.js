@@ -148,7 +148,7 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 2
       ) {
         $('.front').append(
-          '<audio src="assets/123.mp3" controls autoplay></audio>'
+          '<audio src="assets/123.mp3" controls autoplay></audio> <a href="last.html"><button class="replay">Replay</button></a>'
         );
       }
       if (
@@ -157,7 +157,7 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 1
       ) {
         $('.front').append(
-          '<audio src="assets/132.mp3" controls autoplay></audio>'
+          '<audio src="assets/132.mp3" controls autoplay></audio> <a href="last.html"><button class="replay">Replay</button></a>'
         );
       }
 
@@ -167,7 +167,7 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 0
       ) {
         $('.front').append(
-          '<audio src="assets/231.mp3" controls autoplay></audio>'
+          '<audio src="assets/231.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Replay</button></a>'
         );
       }
       if (
@@ -176,7 +176,7 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 1
       ) {
         $('.front').append(
-          '<audio src="assets/312.mp3" controls autoplay></audio>'
+          '<audio src="assets/312.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Replay</button></a>'
         );
       }
       if (
@@ -185,7 +185,7 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 0
       ) {
         $('.front').append(
-          '<audio src="assets/321.mp3" controls autoplay></audio>'
+          '<audio src="assets/321.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Replay</button></a>'
         );
       }
 
@@ -195,7 +195,7 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 2
       ) {
         $('.front').append(
-          '<audio src="assets/213.mp3" controls autoplay></audio>'
+          '<audio src="assets/213.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Replay</button></a>'
         );
       }
     });
