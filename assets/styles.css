@@ -108,12 +108,7 @@ body {
 
   background-size: 100% 100%;
 }
-.flower {
-  margin-top: 300px;
-  margin-left: 29%;
-  height: 40%;
-  width: 40%;
-}
+
 .hon {
   margin-left: 15%;
   margin-top: 12px;
@@ -305,12 +300,17 @@ audio {
   }
 }
 
-.flower {
+.flowertwo {
   animation: fadeIn ease 20s;
   -webkit-animation: fadeIn ease 20s;
   -moz-animation: fadeIn ease 20s;
   -o-animation: fadeIn ease 20s;
   -ms-animation: fadeIn ease 20s;
+  height: 30%;
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 35%;
+  margin-top: 18.75rem;
 }
 @keyframes fadeIn {
   0% {
@@ -423,9 +423,12 @@ audio {
     width: 100%;
   }
   .flowertwo {
-    margin-top: 3%;
-    margin-left: 12%;
-    height: 12.5rem;
+    height: 15%;
+    margin-top: 95%;
+    margin-bottom: 80%;
+    width: 20%;
+    margin-left: 38%;
+    margin-right: 38%;
   }
   .fire {
     margin-left: 10%;
@@ -542,7 +545,11 @@ audio {
     height: 50%;
     background-size: 60% 60%;
   }
-  .flower {
+  .flowertwo {
+    margin-bottom: 25%;
+    margin-top: 60%;
+    height: 20%;
+    width: 15%;
   }
   .mobilehead {
     height: 8%;
