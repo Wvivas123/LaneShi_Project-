@@ -462,7 +462,7 @@ audio {
     margin-left: 0%;
   }
   .circle {
-    width: 98%;
+    width: 93%;
     height: 47%;
     animation: none;
     margin-left: 5%;
@@ -472,7 +472,7 @@ audio {
     width: 90%;
     height: 62%;
     /*display: inline;*/
-    margin-left: 5%;
+    margin-left: 3%;
     animation: none;
   }
   .leftvid {
