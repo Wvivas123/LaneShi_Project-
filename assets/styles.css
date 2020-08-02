@@ -312,11 +312,11 @@ audio {
   -moz-animation: fadeIn ease 20s;
   -o-animation: fadeIn ease 20s;
   -ms-animation: fadeIn ease 20s;
-  height: 30%;
-  width: 10%;
+  height: 23%;
+  width: 8%;
   margin-left: 45%;
   margin-right: 35%;
-  margin-top: 18.75rem;
+  margin-top: 23.75rem;
 }
 @keyframes fadeIn {
   0% {
