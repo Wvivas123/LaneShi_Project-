@@ -603,3 +603,34 @@ audio {
     width: 42%;
   }
 }
+@media (orientation: landscape) and (max-width: 850px) {
+  .flowertwo {
+    margin-top: 25%;
+  }
+  .circle {
+    width: 10%;
+    height: 10%;
+  }
+  .square {
+    width: 10%;
+  }
+  .rbutton {
+    padding-top: 0px;
+    height: 5%;
+    width: 10%;
+  }
+  .please {
+    width: 10%;
+    height: 10%;
+  }
+  .lastflower {
+    width: 7rem;
+  }
+  .replay {
+    margin-top: 3%;
+  }
+  .mobilehead {
+    height: 19%;
+    width: 52%;
+  }
+}
