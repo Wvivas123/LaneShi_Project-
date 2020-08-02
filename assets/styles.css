@@ -605,6 +605,7 @@ audio {
 }
 @media (orientation: landscape) and (max-width: 1000px) {
   .flowertwo {
+    height: 25%;
     margin-top: 25%;
   }
   .circle {
