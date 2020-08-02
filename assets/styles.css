@@ -603,7 +603,7 @@ audio {
     width: 42%;
   }
 }
-@media (orientation: landscape) and (max-width: 1000px) {
+@media (orientation: landscape) and (max-width: 950px) {
   .flowertwo {
     height: 25%;
     margin-top: 25%;
