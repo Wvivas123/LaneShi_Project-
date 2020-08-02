@@ -1,17 +1,4 @@
 jQuery(document).ready(function ($) {
-  $('.nah1').hide();
-  $('.nah2').hide();
-  $('.nah3').hide();
-  setTimeout(function () {
-    $('.nah1').show();
-  }, 1000);
-  setTimeout(function () {
-    $('.nah2').show();
-  }, 2000);
-  setTimeout(function () {
-    $('.nah3').show();
-  }, 3000);
-
   setTimeout(function () {
     $('.intro').attr('href', 'main.html');
   }, 18000);
@@ -161,8 +148,13 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 2
       ) {
         $('.front').append(
-          '<audio src="assets/123.mp3" controls autoplay></audio> <a href="last.html"><button class="replay">Play Again</button></a>'
+          '<audio id="myAudio" src="assets/123.mp3" controls autoplay></audio> <a href="last.html"><button class="replay">Play Again</button></a>'
         );
+        $('.replay').hide();
+        var aud = document.getElementById('myAudio');
+        aud.onended = function () {
+          $('.replay').show();
+        };
       }
       if (
         total.indexOf(1) == 0 &&
@@ -170,8 +162,13 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 1
       ) {
         $('.front').append(
-          '<audio src="assets/132.mp3" controls autoplay></audio> <a href="last.html"><button class="replay">Play Again</button></a>'
+          '<audio id="myAudio" src="assets/132.mp3" controls autoplay></audio> <a href="last.html"><button class="replay">Play Again</button></a>'
         );
+        $('.replay').hide();
+        var aud = document.getElementById('myAudio');
+        aud.onended = function () {
+          $('.replay').show();
+        };
       }
 
       if (
@@ -180,8 +177,13 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 0
       ) {
         $('.front').append(
-          '<audio src="assets/231.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again</button></a>'
+          '<audio id="myAudio" src="assets/231.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again</button></a>'
         );
+        $('.replay').hide();
+        var aud = document.getElementById('myAudio');
+        aud.onended = function () {
+          $('.replay').show();
+        };
       }
       if (
         total.indexOf(1) == 2 &&
@@ -189,8 +191,13 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 1
       ) {
         $('.front').append(
-          '<audio src="assets/312.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again</button></a>'
+          '<audio id="myAudio" src="assets/312.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again</button></a>'
         );
+        $('.replay').hide();
+        var aud = document.getElementById('myAudio');
+        aud.onended = function () {
+          $('.replay').show();
+        };
       }
       if (
         total.indexOf(1) == 2 &&
@@ -198,8 +205,13 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 0
       ) {
         $('.front').append(
-          '<audio src="assets/321.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again</button></a>'
+          '<audio id="myAudio" src="assets/321.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again</button></a>'
         );
+        $('.replay').hide();
+        var aud = document.getElementById('myAudio');
+        aud.onended = function () {
+          $('.replay').show();
+        };
       }
 
       if (
@@ -208,8 +220,13 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 2
       ) {
         $('.front').append(
-          '<audio src="assets/213.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again</button></a>'
+          '<audio id="myAudio" src="assets/213.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again</button></a>'
         );
+        $('.replay').hide();
+        var aud = document.getElementById('myAudio');
+        aud.onended = function () {
+          $('.replay').show();
+        };
       }
     });
   });
