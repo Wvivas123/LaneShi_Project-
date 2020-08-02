@@ -645,11 +645,11 @@ audio {
     margin-top: 25%;
   }
   .circle {
-    width: 13%;
-    height: 13%;
+    width: 12%;
+    height: 12%;
   }
   .square {
-    width: 14%;
+    width: 12%;
   }
   .rbutton {
     padding-top: 0px;
@@ -657,8 +657,8 @@ audio {
     width: 10%;
   }
   .please {
-    width: 13%;
-    height: 11%;
+    width: 12%;
+    height: 10%;
   }
   .lastflower {
     width: 7rem;
@@ -684,5 +684,8 @@ audio {
   .experience {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+  .hon {
+    margin-top: 0px;
   }
 }
