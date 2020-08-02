@@ -5,7 +5,7 @@ body {
   width: 100%;
   color: yellow;
   background-color: black;
-  overflow: hidden;
+
   font-family: silom;
 }
 
@@ -548,6 +548,7 @@ audio {
     display: none;
   }
 }
+
 @media only screen and (min-width: 701px) and (max-width: 1025px) {
   .lastflower {
     top: 42%;
