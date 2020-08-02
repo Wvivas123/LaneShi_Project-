@@ -634,6 +634,7 @@ audio {
     width: 52%;
   }
   .animation1 {
+    height: 80%;
     background-size: 80% 80%;
   }
 }
