@@ -641,15 +641,15 @@ audio {
 }
 @media only screen and (orientation: landscape) and (min-width: 280px) and (max-width: 900px) {
   .flowertwo {
-    height: 25%;
+    height: 28%;
     margin-top: 25%;
   }
   .circle {
-    width: 10%;
-    height: 10%;
+    width: 13%;
+    height: 13%;
   }
   .square {
-    width: 10%;
+    width: 14%;
   }
   .rbutton {
     padding-top: 0px;
@@ -657,8 +657,8 @@ audio {
     width: 10%;
   }
   .please {
-    width: 10%;
-    height: 10%;
+    width: 13%;
+    height: 11%;
   }
   .lastflower {
     width: 7rem;
