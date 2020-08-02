@@ -640,4 +640,12 @@ audio {
   .mobileheader {
     height: 100%;
   }
+  .int {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .experience {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
