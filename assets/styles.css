@@ -378,7 +378,7 @@ audio {
   }
 }
 /*Mobile */
-@media only screen and (min-width: 280px) and (max-width: 700px) {
+@media only screen and (min-width: 280px) and (max-width: 700px) and (orientation: portrait) {
   /* STYLES GO HERE */
 
   html,
@@ -603,7 +603,7 @@ audio {
     width: 42%;
   }
 }
-@media (orientation: landscape) and (max-width: 950px) {
+@media only screen and (orientation: landscape) and (min-width: 280px) and (max-width: 900px) {
   .flowertwo {
     height: 25%;
     margin-top: 25%;
