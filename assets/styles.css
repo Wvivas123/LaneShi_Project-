@@ -620,11 +620,19 @@ audio {
   }
   .rbutton-mobile {
     visibility: visible;
+    outline: none;
+    background-color: #b7b0f1;
+
+    border: solid 2px;
+    border-radius: 90%;
     float: none;
-    margin-left: 35%;
-    margin-right: 35%;
-    height: 36px;
-    width: 30%;
+    margin-left: 37%;
+    margin-right: 45%;
+    height: 4.375rem;
+    width: 20%;
+  }
+  .rbutton-mobile:active {
+    background-color: aqua;
   }
   .rbutton {
     visibility: hidden;
