@@ -13,6 +13,9 @@ jQuery(document).ready(function ($) {
   $('button').click(function () {
     $('.moblieonly').hide('slow');
   });
+  $('.pageonebut').click(function () {
+    $('.pageonebut').hide('slow');
+  });
 
   let total = [];
 
