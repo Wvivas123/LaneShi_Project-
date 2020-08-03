@@ -53,13 +53,11 @@ body {
 .replay {
   font-weight: bold;
   font-size: 15px;
-
   outline: none;
   background-color: #b0f1bb;
   height: 11%;
   width: 6%;
   border: solid 5px;
-
   border-radius: 100%;
   border-color: black;
   margin-top: 5%;
@@ -521,6 +519,17 @@ audio {
     background-color: lawngreen;
     height: 50px;
     width: 50px;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .mobilebutton:active {
+    background-color: lightskyblue;
   }
 
   .box {
@@ -634,6 +643,14 @@ audio {
     margin-left: 40%;
     margin-right: 40%;
     margin-bottom: 60%;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
   }
   .pageonebut:active {
     background-color: lightskyblue;

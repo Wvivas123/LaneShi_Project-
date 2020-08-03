@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
   setTimeout(function () {
     $('.intro').attr('href', 'main.html');
-  }, 18000);
+  }, 16000);
 
   //$('.box').click(function (event) {
   //  event.preventDefault();
