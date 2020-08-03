@@ -67,7 +67,7 @@ body {
   -moz-animation-name: bounce;
 }
 .replay:active {
-  background-color: aqua;
+  background-color: lightskyblue;
 }
 
 @keyframes bounce {
@@ -177,7 +177,7 @@ body {
   -moz-animation-name: bounce;
 }
 .rbutton:active {
-  background-color: aqua;
+  background-color: lightskyblue;
 }
 
 .box {
