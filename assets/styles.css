@@ -69,6 +69,9 @@ body {
 .replay:active {
   background-color: lightskyblue;
 }
+.resetmove {
+  margin-top: 10px;
+}
 
 @keyframes bounce {
   0%,
