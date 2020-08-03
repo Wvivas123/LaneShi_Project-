@@ -25,6 +25,9 @@ body {
   height: 11%;
   width: 40%;
 }
+.pageonebut:active {
+  background-color: lightskyblue;
+}
 
 .square {
   width: 250px;
@@ -38,6 +41,10 @@ body {
 .rbutton-mobile {
   visibility: hidden;
 }
+.rbutton-mobile:active {
+  background-color: lightskyblue;
+}
+
 .replay {
   font-weight: bold;
   font-size: 15px;
@@ -636,9 +643,6 @@ audio {
     margin-right: 45%;
     height: 4.375rem;
     width: 20%;
-  }
-  .rbutton-mobile:active {
-    background-color: lightskyblue;
   }
   .rbutton {
     visibility: hidden;
