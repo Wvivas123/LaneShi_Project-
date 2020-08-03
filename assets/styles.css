@@ -530,6 +530,7 @@ audio {
   }
   .mobilebutton:active {
     background-color: lightskyblue;
+    -webkit-tap-highlight-color: lightskyblue;
   }
 
   .box {
@@ -643,17 +644,9 @@ audio {
     margin-left: 40%;
     margin-right: 40%;
     margin-bottom: 60%;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    -webkit-animation-iteration-count: infinite;
   }
   .pageonebut:active {
-    background-color: lightskyblue;
+    -webkit-tap-highlight-color: lightskyblue;
   }
   .mobilehead {
     width: 100%;
