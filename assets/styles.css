@@ -128,6 +128,10 @@ body {
 .moblieimg {
   width: 400px;
 }
+.centerhack {
+  display: table-caption;
+  margin-left: 52%;
+}
 
 .backgr {
   background-color: black;
@@ -135,7 +139,6 @@ body {
   height: 100%;
 }
 .rbutton {
-  text-align: center;
   margin-left: 10%;
   padding-top: 20px;
   height: 50px;
@@ -652,10 +655,13 @@ audio {
   .square {
     width: 12%;
   }
+  .centerhack {
+    width: 100%;
+  }
   .rbutton {
     padding-top: 0px;
     height: 5%;
-    width: 10%;
+    width: 100%;
   }
   .please {
     width: 12%;
