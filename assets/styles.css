@@ -469,8 +469,10 @@ audio {
     background-image: url('mobilePage3.2.gif');
   }
   .replay {
-    width: 20%;
-    margin-left: 38%;
+    background-color: #b7b0f1;
+
+    width: 28%;
+    margin-left: 35%;
   }
   .animation1 {
     width: 100%;
@@ -613,7 +615,7 @@ audio {
     margin-bottom: 60%;
   }
   .pageonebut:active {
-    background-color: aqua;
+    background-color: lightskyblue;
   }
   .mobilehead {
     width: 100%;
@@ -636,7 +638,7 @@ audio {
     width: 20%;
   }
   .rbutton-mobile:active {
-    background-color: aqua;
+    background-color: lightskyblue;
   }
   .rbutton {
     visibility: hidden;
