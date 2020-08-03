@@ -25,6 +25,16 @@ body {
   height: 11%;
   width: 40%;
 }
+.pageonebut {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
 .pageonebut:active {
   background-color: lightskyblue;
 }
@@ -40,6 +50,14 @@ body {
 }
 .rbutton-mobile {
   visibility: hidden;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
 }
 .rbutton-mobile:active {
   background-color: lightskyblue;
