@@ -21,6 +21,7 @@ body {
   background-size: 100% 100%;
 }
 .mobilehead {
+  margin-left: 2%;
   height: 11%;
   width: 40%;
 }
@@ -193,7 +194,7 @@ body {
 }
 
 .hon {
-  margin-left: 14%;
+  margin-left: 17%;
   margin-top: 12px;
   animation: shake 10s;
 
@@ -202,7 +203,7 @@ body {
 }
 .experience {
   margin-top: 0px;
-  margin-left: 14%;
+  margin-left: 17%;
   animation: shake 10s;
 }
 .pagetwoflower {
@@ -300,7 +301,7 @@ audio {
   animation-iteration-count: infinite;
 }
 .int {
-  margin-left: 14%;
+  margin-left: 17%;
   animation: shake 10s;
 
   /* When the animation is finished, start again */
