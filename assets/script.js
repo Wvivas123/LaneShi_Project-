@@ -138,9 +138,10 @@ jQuery(document).ready(function ($) {
   });
 
   //On Click Dessolve the Body and display the Div
-  $('.lastflower').click(function () {
+  $('.lastflower').one('click', function () {
     $('.animation1').fadeOut('slow', function () {
       // Animation complete.
+
       $('.front').show();
       if (
         total.indexOf(1) == 0 &&
