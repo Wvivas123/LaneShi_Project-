@@ -190,7 +190,7 @@ body {
 }
 
 .hon {
-  margin-left: 15%;
+  margin-left: 14%;
   margin-top: 12px;
   animation: shake 10s;
 
@@ -199,7 +199,7 @@ body {
 }
 .experience {
   margin-top: 0px;
-  margin-left: 16%;
+  margin-left: 14%;
   animation: shake 10s;
 }
 .pagetwoflower {
@@ -297,7 +297,7 @@ audio {
   animation-iteration-count: infinite;
 }
 .int {
-  margin-left: 16%;
+  margin-left: 14%;
   animation: shake 10s;
 
   /* When the animation is finished, start again */
