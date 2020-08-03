@@ -38,14 +38,19 @@ body {
   visibility: hidden;
 }
 .replay {
+  font-weight: bold;
+  font-size: 15px;
+
   outline: none;
   background-color: #b0f1bb;
-  height: 10%;
-  width: 5%;
+  height: 11%;
+  width: 6%;
+  border: solid 5px;
+
   border-radius: 100%;
   border-color: black;
   margin-top: 5%;
-  margin-left: 46%;
+  margin-left: 45%;
   margin-right: 50%;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -60,6 +65,9 @@ body {
   cursor: pointer;
   animation-name: bounce;
   -moz-animation-name: bounce;
+}
+.replay:active {
+  background-color: aqua;
 }
 
 @keyframes bounce {
@@ -131,6 +139,7 @@ body {
 .centerhack {
   display: table-caption;
   margin-left: 22%;
+  height: inherit;
 }
 
 .backgr {
@@ -139,12 +148,38 @@ body {
   height: 100%;
 }
 .rbutton {
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+
+  background-color: #b0f1bb;
+  border: solid 10px;
+  border-color: black;
+
+  border-radius: 100%;
   margin-left: 10%;
-  padding-top: 20px;
-  height: 50px;
-  width: 100px;
+  padding-top: 10px;
+  height: 6.6875rem;
+  width: 6.6875rem;
   display: inline-grid;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
 }
+.rbutton:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+.rbutton:active {
+  background-color: aqua;
+}
+
 .box {
   position: fixed;
   width: 90%;
@@ -178,7 +213,7 @@ body {
   width: 9rem;
   position: absolute;
   left: 100%;
-  top: 40%;
+  top: 36%;
 }
 
 .leftvid {
@@ -201,7 +236,7 @@ audio {
   width: 70%;
   position: fixed;
   background-image: url('Web_Page2.gif');
-  background-size: 70% 70%;
+  background-size: 70% 68%;
   background-position: right 100px;
   background-repeat: no-repeat;
 }
@@ -591,7 +626,7 @@ audio {
 
 @media only screen and (min-width: 701px) and (max-width: 1025px) {
   .lastflower {
-    top: 42%;
+    top: 55%;
     left: 100%;
   }
   .replay {
