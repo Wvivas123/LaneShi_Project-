@@ -8,6 +8,12 @@ body {
 
   font-family: silom;
 }
+.lastani {
+  height: 100%;
+  width: 100%;
+  background-image: url('Web_Page2.gif');
+  background-size: 100% 100%;
+}
 
 .clickme {
   background-color: cyan;
@@ -475,8 +481,9 @@ audio {
     opacity: 1;
   }
 }
+
 /*Mobile */
-@media only screen and (min-width: 280px) and (max-width: 700px) and (orientation: portrait) {
+@media only screen and (min-width: 377px) and (max-width: 750px) and (orientation: portrait) {
   /* STYLES GO HERE */
 
   html,
@@ -487,6 +494,13 @@ audio {
   .front {
     background-image: url('mobilePage3theone.gif');
   }
+  .lastani {
+    height: 100%;
+    width: 100%;
+    background-image: url('mobilePage3.2.gif');
+    background-size: 100% 100%;
+  }
+
   .replay {
     background-color: #b7b0f1;
 
@@ -677,6 +691,29 @@ audio {
   .rbutton {
     visibility: hidden;
     display: none;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 376px) and (orientation: portrait) {
+  .flowertwo {
+    height: 14%;
+    margin-top: 69%;
+    margin-bottom: 75%;
+    width: 19%;
+    margin-left: 38%;
+    margin-right: 38%;
+  }
+  .pageonebut {
+    outline: none;
+    background-color: #b7b0f1;
+
+    border: solid 2px;
+    border-radius: 90%;
+    margin-top: 470px;
+    width: 20%;
+    height: 76px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 60%;
   }
 }
 
