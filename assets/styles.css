@@ -237,7 +237,7 @@ body {
 }
 .lastflower:active {
   filter: sepia(100%);
-  filter: brightness(200%);
+  filter: brightness(250%);
 }
 
 .leftvid {
@@ -419,7 +419,7 @@ audio {
 }
 .flowertwo:active {
   filter: sepia(100%);
-  filter: brightness(200%);
+  filter: brightness(250%);
 }
 
 @keyframes fadeIn {
