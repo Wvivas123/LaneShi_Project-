@@ -694,6 +694,186 @@ audio {
   }
 }
 @media only screen and (min-width: 280px) and (max-width: 376px) and (orientation: portrait) {
+  html,
+  body {
+    color: black;
+    background-color: white;
+  }
+  .front {
+    background-image: url('mobilePage3theone.gif');
+  }
+  .lastani {
+    height: 100%;
+    width: 100%;
+    background-image: url('mobilePage3.2.gif');
+    background-size: 100% 100%;
+  }
+
+  .replay {
+    background-color: #b7b0f1;
+
+    width: 28%;
+    margin-left: 35%;
+  }
+  .animation1 {
+    width: 100%;
+  }
+  .mobileheader {
+    min-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-flex;
+    margin-top: 5%;
+  }
+  .moblieonly {
+    visibility: visible;
+    background-image: url('mobilePage1_text2.gif');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+  }
+  .circledance {
+    margin-left: 0%;
+    animation: none;
+  }
+  .mobilebutton {
+    display: absolute;
+    background-color: lawngreen;
+    height: 50px;
+    width: 50px;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .mobilebutton:focused,
+  .mobilebutton:visited,
+  .mobilebutton:hover,
+  .mobilebutton:active {
+    background-color: lightskyblue;
+  }
+
+  .box {
+    background-image: url('mobilePage1_animation_transparant.gif') !important;
+    width: 100%;
+    height: 100%;
+  }
+  .flower {
+    margin-top: 70%;
+    margin-left: 0%;
+    height: 50%;
+    width: 100%;
+  }
+
+  .fire {
+    margin-left: 10%;
+    margin-top: 0%;
+  }
+  .topdiv {
+    margin-left: 10%;
+    margin-top: 0%;
+  }
+  .leftvid {
+    margin-left: 10%;
+  }
+  .rightvid {
+    float: none;
+    margin-left: 10%;
+  }
+  video {
+    width: 250px;
+  }
+  audio {
+    margin-top: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+  .animation1 {
+    background-image: url('mobilePage2.gif');
+    background-size: 100% 100%;
+  }
+  .topdiv {
+    margin-left: 0%;
+  }
+  .circle {
+    width: 88%;
+    height: 52%;
+    animation: none;
+    margin-left: 5%;
+    object-fit: cover;
+  }
+  .square {
+    width: 90%;
+    height: 62%;
+    /*display: inline;*/
+    margin-left: 3%;
+    animation: none;
+  }
+  .leftvid {
+    height: 100px;
+    width: 50%;
+    margin-left: 16%;
+  }
+  .please {
+    animation: none;
+    margin-left: 0%;
+    width: 100%;
+    height: 47%;
+    background: url(test.gif);
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  }
+  .lastflower {
+    width: 100px;
+    left: 35%;
+    top: 75%;
+  }
+
+  .int {
+    margin-top: 0px;
+    display: inherit;
+    margin-left: 0%;
+    animation: none;
+  }
+  .experience {
+    margin-left: 0%;
+    animation: none;
+  }
+  .hon {
+    margin-top: 0px;
+    margin-left: 0%;
+    animation: none;
+  }
+
+  .mobilehead {
+    width: 100%;
+  }
+  .mobiletri {
+    margin-left: 3%;
+    animation: none;
+  }
+  .rbutton-mobile {
+    visibility: visible;
+    outline: none;
+    background-color: #b7b0f1;
+
+    border: solid 2px;
+    border-radius: 90%;
+    float: none;
+    margin-left: 37%;
+    margin-right: 45%;
+    height: 4.375rem;
+    width: 20%;
+  }
+  .rbutton {
+    visibility: hidden;
+    display: none;
+  }
   .flowertwo {
     height: 14%;
     margin-top: 69%;
