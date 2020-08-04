@@ -152,13 +152,22 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 2
       ) {
         $('.front').append(
-          '<audio id="myAudio" src="assets/123.mp3" controls autoplay></audio> <a href="last.html"><button class="replay">Play Again <span>再来一次</span> </button></a>'
+          '<audio id="myVideo" ontimeupdate="myFunction(this)"  src="assets/123.mp3" controls autoplay></audio> <a href="last.html"><button class="replay">Play Again <span>再来一次</span> </button></a>'
         );
         $('.replay').hide();
-        var aud = document.getElementById('myAudio');
-        aud.onended = function () {
-          $('.replay').show();
+        // Get the video element with id="myVideo"
+        var vid = document.getElementById('myVideo');
+
+        // Assign an ontimeupdate event to the video element, and execute a function if the current playback position has changed
+        vid.ontimeupdate = function () {
+          myFunction();
         };
+
+        function myFunction() {
+          if (vid.currentTime > 60) {
+            $('.replay').show();
+          }
+        }
       }
       if (
         total.indexOf(1) == 0 &&
@@ -166,13 +175,22 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 1
       ) {
         $('.front').append(
-          '<audio id="myAudio" src="assets/132.mp3" controls autoplay></audio> <a href="last.html"><button class="replay">Play Again <span>再来一次</span></button></a>'
+          '<audio id="myVideo" ontimeupdate="myFunction(this)" src="assets/132.mp3" controls autoplay></audio> <a href="last.html"><button class="replay">Play Again <span>再来一次</span></button></a>'
         );
         $('.replay').hide();
-        var aud = document.getElementById('myAudio');
-        aud.onended = function () {
-          $('.replay').show();
+
+        var vid = document.getElementById('myVideo');
+
+        // Assign an ontimeupdate event to the video element, and execute a function if the current playback position has changed
+        vid.ontimeupdate = function () {
+          myFunction();
         };
+
+        function myFunction() {
+          if (vid.currentTime > 60) {
+            $('.replay').show();
+          }
+        }
       }
 
       if (
@@ -181,13 +199,21 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 0
       ) {
         $('.front').append(
-          '<audio id="myAudio" src="assets/231.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again <span>再来一次</span></button></a>'
+          '<audio id="myVideo" ontimeupdate="myFunction(this)" src="assets/231.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again <span>再来一次</span></button></a>'
         );
         $('.replay').hide();
-        var aud = document.getElementById('myAudio');
-        aud.onended = function () {
-          $('.replay').show();
+        var vid = document.getElementById('myVideo');
+
+        // Assign an ontimeupdate event to the video element, and execute a function if the current playback position has changed
+        vid.ontimeupdate = function () {
+          myFunction();
         };
+
+        function myFunction() {
+          if (vid.currentTime > 60) {
+            $('.replay').show();
+          }
+        }
       }
       if (
         total.indexOf(1) == 2 &&
@@ -195,13 +221,21 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 1
       ) {
         $('.front').append(
-          '<audio id="myAudio" src="assets/312.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again <span>再来一次</span></button></a>'
+          '<audio id="myVideo" ontimeupdate="myFunction(this)" src="assets/312.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again <span>再来一次</span></button></a>'
         );
         $('.replay').hide();
-        var aud = document.getElementById('myAudio');
-        aud.onended = function () {
-          $('.replay').show();
+        var vid = document.getElementById('myVideo');
+
+        // Assign an ontimeupdate event to the video element, and execute a function if the current playback position has changed
+        vid.ontimeupdate = function () {
+          myFunction();
         };
+
+        function myFunction() {
+          if (vid.currentTime > 60) {
+            $('.replay').show();
+          }
+        }
       }
       if (
         total.indexOf(1) == 2 &&
@@ -209,13 +243,21 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 0
       ) {
         $('.front').append(
-          '<audio id="myAudio" src="assets/321.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again <span> 再来一次</span></button></a>'
+          '<audio id="myVideo" ontimeupdate="myFunction(this)" src="assets/321.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again <span> 再来一次</span></button></a>'
         );
         $('.replay').hide();
-        var aud = document.getElementById('myAudio');
-        aud.onended = function () {
-          $('.replay').show();
+        var vid = document.getElementById('myVideo');
+
+        // Assign an ontimeupdate event to the video element, and execute a function if the current playback position has changed
+        vid.ontimeupdate = function () {
+          myFunction();
         };
+
+        function myFunction() {
+          if (vid.currentTime > 60) {
+            $('.replay').show();
+          }
+        }
       }
 
       if (
@@ -224,13 +266,22 @@ jQuery(document).ready(function ($) {
         total.indexOf(3) == 2
       ) {
         $('.front').append(
-          '<audio id="myAudio" src="assets/213.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again <span>再来一次</span></button></a>'
+          '<audio id="myVideo" ontimeupdate="myFunction(this)" src="assets/213.mp3" controls autoplay></audio>  <a href="last.html"><button class="replay">Play Again <span>再来一次</span></button></a>'
         );
         $('.replay').hide();
-        var aud = document.getElementById('myAudio');
-        aud.onended = function () {
-          $('.replay').show();
+
+        var vid = document.getElementById('myVideo');
+
+        // Assign an ontimeupdate event to the video element, and execute a function if the current playback position has changed
+        vid.ontimeupdate = function () {
+          myFunction();
         };
+
+        function myFunction() {
+          if (vid.currentTime > 60) {
+            $('.replay').show();
+          }
+        }
       }
     });
   });
