@@ -11,7 +11,7 @@ body {
 .lastani {
   height: 100%;
   width: 100%;
-  background-image: url('webpage4.gif');
+  background-image: url('a123.gif');
   background-size: 100% 100%;
 }
 
@@ -497,7 +497,7 @@ audio {
   .lastani {
     height: 100%;
     width: 100%;
-    background-image: url('mobilepage4.gif') !important;
+    background-image: url('a123_mob.gif') !important;
     background-size: 100% 100%;
   }
 
@@ -700,16 +700,10 @@ audio {
     background-color: white;
   }
   .lastani {
-    background-image: url('mobilepage4.gif');
+    background-image: url('a123_mob.gif');
   }
   .front {
     background-image: url('mobilePage3theone.gif');
-  }
-  .lastani {
-    height: 100%;
-    width: 100%;
-    background-image: url('mobilepage4.gif') !important;
-    background-size: 100% 100%;
   }
 
   .replay {
