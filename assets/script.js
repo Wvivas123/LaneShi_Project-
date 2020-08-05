@@ -1,4 +1,6 @@
 jQuery(document).ready(function ($) {
+  document.cookie = 'username=John Doe';
+
   setTimeout(function () {
     $('.intro').attr('href', 'main.html');
   }, 16000);
@@ -23,8 +25,6 @@ jQuery(document).ready(function ($) {
   let click2 = true;
   let click3 = true;
   let counter = 0;
-
-  $('html, body').animate({ scrollTop: $('.animation1').offset().top }, 1000);
 
   // On click  increment to total
   $('.rbutton').click(function () {
