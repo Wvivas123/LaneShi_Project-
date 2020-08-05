@@ -5,7 +5,7 @@ body {
   width: 100%;
   color: yellow;
   background-color: black;
-
+  overflow: hidden;
   font-family: silom;
 }
 .lastani {
@@ -13,6 +13,9 @@ body {
   width: 100%;
   background-image: url('a123.gif');
   background-size: 100% 100%;
+}
+.mobileheader {
+  height: 80%;
 }
 
 .clickme {
@@ -211,7 +214,7 @@ body {
 
 .hon {
   margin-left: 17%;
-  margin-top: 12px;
+  margin-top: 0%;
   animation: shake 10s;
 
   /* When the animation is finished, start again */
