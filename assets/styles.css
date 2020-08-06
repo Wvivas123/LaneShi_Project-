@@ -36,7 +36,7 @@ body {
 }
 
 .square {
-  width: 240px;
+  width: 19%;
   display: inline;
   margin-left: 7%;
   animation: shake 10s;
