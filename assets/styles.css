@@ -11,6 +11,9 @@ body {
 .scrol {
   overflow: scroll;
 }
+.resetmobile {
+  display: block;
+}
 
 .lastani {
   height: 100%;
