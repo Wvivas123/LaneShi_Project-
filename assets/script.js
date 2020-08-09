@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-  document.cookie = 'username=John Doe';
+  $('.lastflower').hide();
 
   setTimeout(function () {
     $('.intro').attr('href', 'main.html');
