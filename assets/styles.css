@@ -1,10 +1,11 @@
+html,
 body {
   margin: 0px;
   height: 100%;
   width: 100%;
   color: yellow;
   background-color: black;
-  overflow: hidden;
+
   font-family: silom;
 }
 .scrol {
